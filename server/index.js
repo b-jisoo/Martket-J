@@ -48,7 +48,7 @@ app.use("/api/board", board);
 
 app.use("/uploads", express.static("uploads"));
 
-const port = 4000;
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
   console.log(`Server Listening on ${port}`);
