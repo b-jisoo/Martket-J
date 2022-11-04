@@ -13,7 +13,7 @@
   "scripts": {
     "client": "yarn workspace client dev",
     "server": "yarn workspace server start",
-    "start": "cd server && npm run serve"
+    "start": "cd server && npm run start"
   },
   "repository": {
     "url": "git+https://github.com/b-jisoo/Martket-J.git"
