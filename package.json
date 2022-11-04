@@ -2,9 +2,9 @@
   "name": "martket-j",
   "version": "1.0.0",
   "main": "index.js",
-  "engine": {
-    "node": "16.15.1",
-    "npm": "8.13.1"
+  "engines": {
+    "node": "16.15.x",
+    "npm": "8.13.x"
   },
   "workspaces": [
     "client",

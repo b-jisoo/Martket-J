@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "engine": {
-    "node": "16.15.1",
-    "npm": "8.13.1"
+  "engines": {
+    "node": "16.15.x",
+    "npm": "8.13.x"
   },
   "scripts": {
     "start": "nodemon server/index.js",
