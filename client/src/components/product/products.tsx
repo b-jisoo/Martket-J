@@ -85,7 +85,6 @@ const ProductPage = () => {
     axios.post(PRODUCTMORE_URL, body).then((response) => {
       if (response.data.success) {
         if (body.loadMore) {
-          console.log("상품목록: ", response.data);
           setProducts([...products, ...response.data.productInfo]);
         } else {
           setProducts(response.data.productInfo);

@@ -6,7 +6,6 @@ const IMAGEUPLOAD_URL = "/api/product/image";
 
 function FileUpload(props: any) {
   const [Images, setImages] = useState([] as any);
-  console.log(props);
 
   const handleDropImage = (files: any) => {
     let formData = new FormData();
@@ -17,7 +16,6 @@ function FileUpload(props: any) {
     formData.append("file", files[0]);
     axios.post(IMAGEUPLOAD_URL, formData, config).then((response) => {
       if (response.data.success) {
-        console.log(response.data);
         setImages([...Images, response.data.filePath]);
         props.moveFunction([...Images, response.data.filePath]);
       } else {
@@ -31,7 +29,6 @@ function FileUpload(props: any) {
 
   const handleDeleteImage = (image: any) => {
     const currentIndex = Images.indexOf(image);
-    console.log("currentIndex", currentIndex);
     let newImages = [...Images];
     newImages.splice(currentIndex, 1);
     setImages(newImages);

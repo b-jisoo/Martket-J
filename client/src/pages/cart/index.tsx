@@ -65,7 +65,6 @@ const CartContainer = styled.div`
 // ----------------------------css 끝----------------------------
 
 const Cart = () => {
-  console.log("장바구니페이지입니다.");
   //const { cartTotalQuantity } = useSelector((state: RootState) => state.cart);
   const cartData = useSelector((state: RootState) => state.cart);
   const dispatch = useDispatch();

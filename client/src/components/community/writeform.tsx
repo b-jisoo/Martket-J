@@ -96,7 +96,6 @@ export const WriteForm = () => {
     // 수정 버튼을 눌러 데이터가 왔을 경우, updatedata에 이전 글의 데이터를 저장
     if (location.state) {
       const updatedata = location.state.data;
-      console.log("updatedata:", updatedata);
       setTitle(updatedata.title);
       setContent(updatedata.content);
     }

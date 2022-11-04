@@ -67,8 +67,6 @@ export const BoardDetail = (data: boardItem) => {
     Auth().then((data) => setUser(data));
   }, []);
   if (!user) return null;
-  console.log("user", user);
-  console.log("Form에 들어오는 데이터", data);
 
   // 핸들링 함수----------------------------------------------------
   //게시판을 삭제하는 함수

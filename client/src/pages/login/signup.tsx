@@ -73,7 +73,6 @@ const SignUpBtnContainer = styled.div`
 axios.defaults.withCredentials = true; //쿠키 가져오는 설정
 
 const SignUpPage = () => {
-  console.log("회원가입페이지입니다.");
   const navigate = useNavigate();
   const SIGNUP_URL = "/api/users/signup";
 

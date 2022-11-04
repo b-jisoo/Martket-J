@@ -24,43 +24,28 @@ function AddForm() {
 
   const handleChangeTitle = (e: any) => {
     setTitle(e.currentTarget.value);
-    console.log("title", title);
   };
 
   const handleChangeDescription = (e: any) => {
     setDescription(e.currentTarget.value);
-    console.log("description", description);
   };
 
   const handleChangePrice = (e: any) => {
     setPrice(e.currentTarget.value);
-    console.log("price", price);
   };
 
   const handleChangeCategory = (e: any) => {
     setCategory(e.currentTarget.value);
-    console.log("category", category);
   };
 
   const handleupdateImages = (newImages: any) => {
     setImages(newImages);
-    console.log("newImages", newImages);
   };
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
 
     if (!images || !title || !description || !price || !category) {
-      console.log("Images", images);
-
-      console.log("title", title);
-
-      console.log("description", description);
-
-      console.log("price", price);
-
-      console.log("category", category);
-
       return alert("모든 칸을 채워주세요");
     } //유효성 체크 -> 모든 칸이 채워지도록
 
@@ -77,7 +62,6 @@ function AddForm() {
 
     axios.post(FILEUPLOAD_URL, body).then((res) => {
       if (res.data.success) {
-        console.log("res.data", res.data);
         alert("상품 업로드 성공");
         navigate("/");
       } else {
