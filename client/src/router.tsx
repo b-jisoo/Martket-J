@@ -25,7 +25,7 @@ export const routes = [
       { path: "/community", element: <CommunityPage /> },
       { path: "/community/write", element: <WriteBoard /> },
       { path: "/community/:postId", element: <BoardDetailPage /> },
-      { path: "/admin", element: <AdminIndex />, index: true },
+      // { path: "/admin", element: <AdminIndex />, index: true },
     ],
   },
 ];

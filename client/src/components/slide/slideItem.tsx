@@ -20,15 +20,15 @@ const Image = styled.img`
 
 const items: itemsProps[] = [
   {
-    item: "/main_banner.jpg",
+    item: "https://b-jisoo.github.io/Martket-J/main_banner.jpg",
     name: "이미지01",
   },
   {
-    item: "/main_banner2.jpg",
+    item: "https://b-jisoo.github.io/Martket-J/main_banner2.jpg",
     name: "이미지02",
   },
   {
-    item: "/main_banner3.jpg",
+    item: "https://b-jisoo.github.io/Martket-J/main_banner3.jpg",
     name: "이미지03",
   },
 ];

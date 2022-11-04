@@ -38,7 +38,11 @@ const LeftForm = () => {
     <div>
       <SideMenuBar className="gnb">
         <Link to="/">
-          <img id="logo" src="/Market_logo.png" alt="logo" />
+          <img
+            id="logo"
+            src="https://b-jisoo.github.io/Martket-J/Market_logo.png"
+            alt="logo"
+          />
         </Link>
         <ul>
           <li>
