@@ -1,0 +1,22 @@
+{
+  "name": "martket-j",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspace client dev",
+    "server": "yarn workspace server dev",
+    "start": "cd server && npm run serve"
+  },
+  "repository": {
+    "url": "git+https://github.com/b-jisoo/Martket-J.git"
+  },
+  "author": "Team JS <mrk334kr@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b-jisoo/Martket-J/issues"
+  }
+}
