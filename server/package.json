@@ -7,7 +7,7 @@
     "npm": "8.13.x"
   },
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node index.js",
     "dev": "nodemon server/index.js",
     "frontend": "npm run start --prefix client",
     "serve": "npm run build && node ./dist/index.js"
