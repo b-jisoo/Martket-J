@@ -10,7 +10,8 @@
     "start": "nodemon server/index.js",
     "dev": "nodemon server/index.js",
     "frontend": "npm run start --prefix client",
-    "serve": "npm run build && cross-env NODE_ENV=production node ./dist/index.js"
+    "serve": "npm run build && cross-env NODE_ENV=production node ./dist/index.js",
+    "build": "rm -rf dist && tsc"
   },
   "author": "",
   "license": "ISC",
