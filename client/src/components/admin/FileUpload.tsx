@@ -70,7 +70,7 @@ function FileUpload(props: any) {
           <div onClick={() => handleDeleteImage(image)} key={index}>
             <img
               style={{ minWidth: "300px", width: "300px", height: "240px" }}
-              src={`http://localhost:4000/${image}`}
+              src={`https://martket-j.herokuapp.com/${image}`}
             />
           </div>
         ))}

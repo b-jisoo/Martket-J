@@ -34,7 +34,7 @@ const Item = styled.li`
 `;
 // ----------------------------css 끝----------------------------
 
-const SERVER_URL = "http://localhost:4000/";
+const SERVER_URL = "https://martket-j.herokuapp.com/";
 const convertPrice = (price: number) => {
   return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };

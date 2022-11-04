@@ -119,7 +119,7 @@ const ProductPage = () => {
           <Link to={`/products/${product._id}`}>
             <Product_Image2
               key={index}
-              src={`http://localhost:4000/${product.images[0]}`}
+              src={`https://martket-j.herokuapp.com/${product.images[0]}`}
             />
             <Product_Name>
               <p>{product.title}</p>

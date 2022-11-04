@@ -80,7 +80,7 @@ const CartItem = (cartItem: Product) => {
   return (
     <CartItemContainer>
       <CartItemImage_Container>
-        <img src={`http://localhost:4000/${cartItem.images}`} />
+        <img src={`https://martket-j.herokuapp.com/${cartItem.images}`} />
       </CartItemImage_Container>
       <div className="title">
         <p> {cartItem.title}</p>
