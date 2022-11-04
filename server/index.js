@@ -21,13 +21,13 @@ const connect = mongoose
   .then(() => console.log("MongoDB Connected..."))
   .catch((err) => console.log(err));
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static("client/build"));
 
-  app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "../client", "build", "index.html"));
-  });
-}
+//   app.get("*", (req, res) => {
+//     res.sendFile(path.resolve(__dirname, "../client", "build", "index.html"));
+//   });
+// }
 
 // cors 설정 - 브라우저에서 포트 다르면 통신 막음
 app.use(
