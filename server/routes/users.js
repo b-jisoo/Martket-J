@@ -52,6 +52,7 @@ router.post("/login", (req, res) => {
         res.cookie("w_authExp", user.tokenExp, {
           httpOnly: true,
           sameSite: "none",
+          secure: true,
         });
         res.status(200).cookie("w_auth", user.token, { httpOnly: true }).json({
           loginSuccess: true,
