@@ -42,12 +42,12 @@ const convertPrice = (price: number) => {
 const ProductItem = (product: Product) => {
   return (
     <Item>
-      <a href={`/products/${product._id}`}>
+      <Link to={`/products/${product._id}`}>
         <img
           style={{ width: "300px", height: "300px" }}
           src={`${SERVER_URL}${product.images[0]}`}
         />
-      </a>
+      </Link>
       <div>
         <Link to={`/products/${product._id}`}>
           <p>{product.title}</p>
