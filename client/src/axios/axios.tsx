@@ -6,9 +6,4 @@ import axios from "axios";
 export default axios.create({
   baseURL: "https://martket-j.herokuapp.com",
   withCredentials: true,
-  headers: {
-    Accept: "application/json",
-    "Content-Type": "application/json",
-    Cache: "no-cache",
-  },
 });
