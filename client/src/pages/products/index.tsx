@@ -37,8 +37,6 @@ const ProductList = () => {
 
   const { data, isLoading } = useFetcher(category);
 
-  console.log("data", productItem);
-
   return (
     <ProducListController>
       <br />

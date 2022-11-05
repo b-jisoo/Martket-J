@@ -32,7 +32,6 @@ const SideMenuBar = styled.nav`
 // ----------------------------css 끝----------------------------
 
 const LeftForm = () => {
-  console.log("LeftForm");
   const category = ["top", "outer", "pants", "dress", "shoes", "bag", "etc"];
 
   return (

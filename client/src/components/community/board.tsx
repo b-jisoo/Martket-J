@@ -146,7 +146,6 @@ export const CommunityBoard = () => {
   }, [page, listSize]);
 
   if (!boardList?.results) return null;
-  console.log("boardList", boardList);
 
   //핸들링 함수
 

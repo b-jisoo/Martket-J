@@ -28,8 +28,6 @@ const LoginWrap = styled.div`
 // ----------------------------css 끝----------------------------
 
 const LoginPage = () => {
-  console.log("로그인페이지입니다.");
-
   return (
     <LoginPageContainer>
       <LoginWrap>

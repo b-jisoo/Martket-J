@@ -25,7 +25,6 @@ const HeaderRight = styled.nav`
 // ----------------------------css 끝----------------------------
 
 const RightForm = ({ user }: any) => {
-  console.log("RightForm");
   const cartData = useSelector((state: RootState) => state.cart);
   const dispatch = useDispatch();
 

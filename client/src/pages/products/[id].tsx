@@ -15,9 +15,6 @@ const ProductDetailPage = () => {
     })
   );
   if (!data) return null;
-  console.log(data);
-  console.log("호출했습니다ㅣ");
-  console.log(data.product[0]);
 
   return (
     <div>

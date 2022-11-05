@@ -114,7 +114,6 @@ export const LoginForm = () => {
           axios.defaults.headers.common[
             "Authorization"
           ] = `Bearer ${accessToken}`;
-          console.log("response", response);
 
           // 아이디 저장을 체크 했을 경우, 로컬스토리지에 아이디 저장(true)
           if (saveIDFlag) localStorage.setItem(LS_KEY_ID, loginID);
