@@ -54,10 +54,17 @@ router.post("/login", (req, res) => {
           sameSite: "none",
           secure: true,
         });
-        res.status(200).cookie("w_auth", user.token, { httpOnly: true }).json({
-          loginSuccess: true,
-          userId: user._id,
-        });
+        res
+          .status(200)
+          .cookie("w_auth", user.token, {
+            httpOnly: true,
+            sameSite: "none",
+            secure: true,
+          })
+          .json({
+            loginSuccess: true,
+            userId: user._id,
+          });
       });
     });
   });
