@@ -241,7 +241,7 @@ function Detail_product(product: Product) {
       <ProductInfoWrap>
         <section className="section1">
           <Product_Img>
-            <img src={`http://localhost:4000/${product.images}`} />
+            <img src={`https://martket-j.herokuapp.com/${product.images}`} />
           </Product_Img>
         </section>
         <section className="section2">

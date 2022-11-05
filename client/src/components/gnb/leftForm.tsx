@@ -54,9 +54,6 @@ const LeftForm = () => {
             <br />
             <Link to="/community">COMMUNITY</Link>
           </li>
-          <li>
-            <Link to="/admin">Admin</Link>
-          </li>
         </ul>
       </SideMenuBar>
     </div>
