@@ -37,7 +37,7 @@ const LeftForm = () => {
   return (
     <div>
       <SideMenuBar className="gnb">
-        <Link to="/">
+        <Link to="/Martket-J/">
           <img
             id="logo"
             src="https://b-jisoo.github.io/Martket-J/Market_logo.png"
@@ -57,9 +57,9 @@ const LeftForm = () => {
             <br />
             <Link to="/community">COMMUNITY</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/admin">Admin</Link>
-          </li>
+          </li> */}
         </ul>
       </SideMenuBar>
     </div>

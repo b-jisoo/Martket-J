@@ -15,7 +15,7 @@ export const routes = [
     path: "/",
     element: <GlobalLayout />,
     children: [
-      { path: "/", element: <Index />, index: true },
+      { path: "/Martket-J/", element: <Index />, index: true },
       { path: "/cart", element: <CartIndex />, index: true },
       { path: "/products/:id", element: <Id /> },
       { path: "/product/", element: <ProductList /> },
